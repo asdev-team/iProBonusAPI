@@ -1,1 +1,1 @@
-exports.APP_VERSION = '1.0.9'; // DO NOT TOUCH
+exports.APP_VERSION = '1.0.10'; // DO NOT TOUCH

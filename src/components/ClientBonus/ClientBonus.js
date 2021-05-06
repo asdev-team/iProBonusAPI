@@ -9,9 +9,9 @@ import {dateFormat, declination, proxyURL} from "@/components/Utils/functions";
 
 const ClientBonus = ({ClientID, DeviceID}) => {
     const [bonusCard, setBonusCard] = useState({
-        currentQuantity: '300 бонусов',
-        burningDate: '29.03 сгорит',
-        burningQuantity: '250 бонусов',
+        currentQuantity: 0,
+        burningDate: new Date(),
+        burningQuantity: 0,
         loading: !(!ClientID || !DeviceID),
         loaded: false,
         error: !ClientID || !DeviceID,

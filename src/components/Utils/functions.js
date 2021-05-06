@@ -1,4 +1,4 @@
-export function dateFormat(sFormat, date) {
+export const dateFormat = (sFormat, date) => {
     if (!(date instanceof Date)) date = new Date();
     var nDay = date.getDay(),
         nDate = date.getDate(),
@@ -63,7 +63,7 @@ export function dateFormat(sFormat, date) {
     });
 }
 
-export function declination(number, words) {
+export const declination = (number, words) => {
     return number + ' ' + words[(number % 100 > 4 && number % 100 < 20) ? 2 : [2, 0, 1, 1, 1, 2][(number % 10 < 5) ? number % 10 : 5]];
 }
 
