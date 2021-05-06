@@ -1,0 +1,59 @@
+.clientBonusCardWrapper {
+    background: linear-gradient(180deg, #D2333E 0%, #F54B55 100%);
+    padding: 22px 5px;
+    margin-top: 76px;
+}
+
+.clientBonusCard {
+    min-height: 105px;
+    width: 100%;
+    padding: 18px 20px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-76px);
+}
+
+.clientBonusCard,
+.clientBonusCard--burning {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clientBonusCard--current--quantity {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.clientBonusCard--burning--date,
+.clientBonusCard--burning--quantity {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #979797;
+}
+
+.clientBonusCard--burning--icon {
+    margin: 0 8px;
+}
+
+.clientBonusCard--Button {
+    width: 35px;
+    height: 35px;
+    margin-left: auto;
+}
+
+.clientBonusCard--error {
+    padding: 15px;
+    width: 100%;
+    /*background: linear-gradient(180deg, #D2333E 0%, #F54B55 100%);*/
+    border-radius: 10px;
+    text-align: center;
+    color: #979797;
+    font-weight: normal;
+}
